@@ -1,8 +1,9 @@
 package com.scb.main;
 
-public class Main {
+public class MyMain {
 
 	public static void main(String[] args) {
-		System.out.println("Helo World !");
+		System.out.println("Hello World !");
 	}
+	
 }
