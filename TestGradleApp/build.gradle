@@ -1,0 +1,20 @@
+apply plugin: 'java'
+group = 'TestApp'
+version = '1.0.0-SNAPSHOT'
+description = 'My test application using Gradle'
+
+sourceCompatibility = 1.8
+
+
+repositories {
+    maven {
+    	url "http://repo.maven.apache.org/maven2/"
+    }
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    testCompile 'info.cukes:cucumber-java:1.2.0'
+    testCompile 'info.cukes:cucumber-junit:1.2.0'
+    compile 'org.mockito:mockito-all:1.10.19'
+}
